@@ -22,8 +22,8 @@ public class GeneradorNombres {
 
 			for (int i = 0; i < cantidadNombres; i++) {
 				int id = random.nextInt(450) + 1;
-				String nombre = faker.name().firstName(); // Solo nombre
-				String apellido = faker.name().lastName(); // Solo apellido
+				String nombre = faker.name().firstName();
+				String apellido = faker.name().lastName();
 
 				writer.write(id + " " + nombre + " " + apellido);
 
